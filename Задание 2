@@ -1,0 +1,22 @@
+using System;
+
+internal class programConfic
+{
+    public const string Version = "01.01";
+    public const string Name = "zadacha_1";
+
+    public static void Aad()
+    {
+        Console.WriteLine($"Информация о программе: Версия {Version}, имя {Name} ");
+    }
+}
+
+
+
+internal class Program
+{
+    static void Main(string[] args)
+    {
+        programConfic.Aad();
+    }
+}
